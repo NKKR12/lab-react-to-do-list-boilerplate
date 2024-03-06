@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffb84d;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.inputBox{
+  margin: 5px 50px;
+}
+.inputBox button{
+  border: 2px solid #000000;
+  color:  #c8ff14;
+  padding: 10px;
+  padding-inline: 40px;
+  height: 100%;
+  font-size: 18px;
+  cursor: pointer;
+}
+.inputBox input{
+  height: 40px;
+  width: 400px;
+  margin-block: 20px;
+  padding-left: 50px;
+  font-size: 18px;
+  color: #3f3b3b;
+  border: none;
+}
+
+.current-txt{
+  text-align: center;
+  height: 30px;
+}
+.Container button{
+  color:  #F6806F;
+  margin: 5px;
+  padding: 10px;
+  padding-inline: 25px;
+  height: 100%;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10%;
+}
+.testing{
+  background-color: rgb(0, 0, 0);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+input:focus{
+  outline: none;
+}
+input{
+  border: none;
+  font-size: 20px;
+}
